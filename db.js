@@ -5,18 +5,10 @@ const { getDatabaseUri } = require("./config");
 
 let db;
 
-if (process.env.NODE_ENV === "production") {
-  db = new Client({
-    connectionString: getDatabaseUri(),
-    ssl: {
-      rejectUnauthorized: false
-    }
-  });
-} else {
-  db = new Client({
-    connectionString: getDatabaseUri()
-  });
-}
+db = new Client({
+  connectionString: getDatabaseUri(),
+  ssl: process.env.DATABASE_SSL === "true" ? { rejectUnauthorized: false } : false
+});
 
 db.connect();
 
