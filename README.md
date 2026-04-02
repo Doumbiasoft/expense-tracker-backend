@@ -4,9 +4,6 @@
 
 Create a personal finance app for tracking income, expenses. Implement data visualization to help users analyze their financial trends.
 
-**Host:** **[Render.com](https://render.com)**
-**The JSON REST API is online at:**
-**https://expense-tracker-backend-jnmy.onrender.com**
 
 **DATABASE SCHEMA**:
 ![Img-Light](documentation/medias/images/expense_tracker_database_schema_light.png#gh-light-mode-only)![Img-Dark](documentation/medias/images/expense_tracker_database_schema_dark.png#gh-dark-mode-only)
@@ -25,7 +22,7 @@ To use this application, you will need to download and install [NodeJS](http://n
 
 Once you have NodeJS installed, you have two choices for downloading this source code:
 
-1. Download & extract a [zip file](https://github.com/doumbiasoft/capstone-two-budget-tracker-backend/archive/master.zip) of the source
+1. Download & extract a [zip file](https://github.com/doumbiasoft/expense-tracker-backend/archive/master.zip) of the source
 2. Fork this repository and git clone your fork
 
 Next, you need to install the package dependencies by running the following command in the top-level directory of this source tree:
