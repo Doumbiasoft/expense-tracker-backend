@@ -1,8 +1,6 @@
-# Capstone two: Expense Tracker Api (Back-End)
+# Expense Tracker Api (Back-End)
 
-## Unit 50 Capstone 2
-
-Create a personal finance app for tracking income, expenses. Implement data visualization to help users analyze their financial trends.
+A personal finance app for tracking income, expenses. Implement data visualization to help users analyze their financial trends.
 
 
 **DATABASE SCHEMA**:
