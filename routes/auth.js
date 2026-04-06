@@ -55,7 +55,7 @@ router.post("/oauth", async function (req, res, next) {
       throw new BadRequestError(errs);
     }
 
-    const newUser = await User.oauth(req.body);
+    const newUser = await User.oauth({ ...req.body, lastName: req.body.lastName || "" });
 
     if (newUser.IsNew) {
       const userId = newUser.id;
